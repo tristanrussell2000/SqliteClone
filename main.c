@@ -90,7 +90,6 @@ void read_input(InputBuffer* input_buffer) {
 }
 
 int main(int argc, char* argv[]) {
-	printf("Size of size_t %zu ssize_t %zu", sizeof(size_t), sizeof(ssize_t));
 	InputBuffer* input_buffer = new_input_buffer();
 	while(true) {
 		print_prompt();
